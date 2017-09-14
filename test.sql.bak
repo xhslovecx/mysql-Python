@@ -1,0 +1,9 @@
+drop table if exists mysqldb.woman;
+create table mysqldb.woman(
+id int(4) not null
+,name char(10)
+,primary key(id)
+);
+insert into mysqldb.woman values(id=100,name='xhs')
+;
+select * from mysqldb.woman
