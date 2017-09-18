@@ -1,0 +1,13 @@
+﻿import MySQLdb
+import pandas as pd
+#使用python连接数据库
+conn = MySQLdb.connect(
+    host = '127.0.0.1',#本地地址
+    user = 'root',#一般默认用户名
+    passwd = '********',#本地数据库登录密码（这里用你自己的密码！！！）
+    db = 'test',#数据库名称（这里用你自己的数据库名称！！！）
+    port = 3306,#安装mysql默认的端口号
+    charset = 'utf8'#设置数据库统一编码
+)
+sql = 'SELECT * FROM `tdb_goods`;'
+df = pd.read_sql(sql,conn)

@@ -1,0 +1,4 @@
+﻿python数据库操作之pymysql模块和sqlalchemy模块(项目必备) 
+http://www.cnblogs.com/aylin/p/5770888.html
+SQLAlchemy：python数据库连接 神器 
+http://blog.csdn.net/zd0303/article/details/50261347
